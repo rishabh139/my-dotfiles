@@ -1,0 +1,54 @@
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+sudo yabai --load-sa
+
+# default layout (can be bsp, stack or float)
+yabai -m config layout bsp
+
+# New window spawns to the right if vertical split, or bottom if horizontal split
+yabai -m config window_placement second_child
+
+yabai -m config window_opacity on
+yabai -m config active_window_opacity 1.0
+yabai -m config normal_window_opacity 0.93
+
+yabai -m config external_bar all:37:0
+
+# padding set to 12px
+yabai -m config top_padding     3
+yabai -m config bottom_padding  3
+yabai -m config left_padding    3
+yabai -m config right_padding   3
+yabai -m config window_gap      4
+
+# center mouse on window with focus
+# yabai -m config mouse_follows_focus on
+
+# modifier for clicking and dragging with mouse
+yabai -m config mouse_modifier alt
+# set modifier + left-click drag to move window
+yabai -m config mouse_action1 move
+# set modifier + right-click drag to resize window
+yabai -m config mouse_action2 resize
+
+yabai -m signal --add event=window_created action='
+  yabai -m query --windows --window $yabai_window_id | jq -er ".\"can-resize\" or .\"is-floating\"" || \
+  yabai -m window $yabai_window_id --toggle float --layer above --grid 4:4:1:1:2:2
+'
+
+# when window is dropped in center of another window, swap them (on edges it will split it)
+yabai -m mouse_drop_action swap
+
+# focus window after active space changes
+yabai -m signal --add event=space_changed action="yabai -m window --focus \$(yabai -m query --windows --space | jq .[0].id)"
+
+# focus window after active display changes
+yabai -m signal --add event=display_changed action="yabai -m window --focus \$(yabai -m query --windows --space | jq .[0].id)"
+
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^Dictionary$" manage=off
+yabai -m rule --add app="^FaceTime$" manage=off
+yabai -m rule --add app="^Activity Monitor$" manage=off
+yabai -m rule --add app="^Messages$" manage=off
+yabai -m rule --add app="^AppCleaner$" manage=off
+yabai -m rule --add app="^Raycast$" manage=off
+yabai -m rule --add app="^Spark$" manage=off

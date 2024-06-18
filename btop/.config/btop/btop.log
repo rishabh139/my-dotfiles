@@ -1,0 +1,63 @@
+
+2024/06/18 (01:19:30) | ===> btop++ v.1.3.2
+2024/06/18 (01:19:30) | WARNING: Failed to set locale UTF-8 continuing anyway.
+2024/06/18 (01:26:36) | INFO: Logger set to INFO
+2024/06/18 (01:26:37) | INFO: Logger set to DEBUG
+2024/06/18 (01:26:43) | INFO: Logger set to INFO
+2024/06/18 (01:26:44) | INFO: Logger set to DEBUG
+2024/06/18 (01:31:08) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/tomorrow-night.theme
+2024/06/18 (01:31:08) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/solarized_dark.theme
+2024/06/18 (01:31:09) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/gruvbox_dark_v2.theme
+2024/06/18 (01:31:09) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/elementarish.theme
+2024/06/18 (01:31:11) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/HotPurpleTrafficLight.theme
+2024/06/18 (01:31:12) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/onedark.theme
+2024/06/18 (01:31:13) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/flat-remix-light.theme
+2024/06/18 (01:31:14) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/everforest-dark-hard.theme
+2024/06/18 (01:31:15) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/whiteout.theme
+2024/06/18 (01:31:16) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/kyli0x.theme
+2024/06/18 (01:31:17) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/dusklight.theme
+2024/06/18 (01:31:18) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/adapta.theme
+2024/06/18 (01:31:18) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/gruvbox_material_dark.theme
+2024/06/18 (01:31:20) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/adapta.theme
+2024/06/18 (01:31:22) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/gruvbox_material_dark.theme
+2024/06/18 (01:31:22) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/matcha-dark-sea.theme
+2024/06/18 (01:31:23) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/gruvbox_dark.theme
+2024/06/18 (01:31:23) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/paper.theme
+2024/06/18 (01:31:26) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/ayu.theme
+2024/06/18 (01:31:27) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/flat-remix.theme
+2024/06/18 (01:31:27) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/tokyo-storm.theme
+2024/06/18 (01:31:28) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/night-owl.theme
+2024/06/18 (01:31:29) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/monokai.theme
+2024/06/18 (01:31:45) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/nord.theme
+2024/06/18 (01:31:59) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/dracula.theme
+2024/06/18 (01:32:01) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/greyscale.theme
+2024/06/18 (01:32:01) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/solarized_light.theme
+2024/06/18 (01:32:02) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/adwaita.theme
+2024/06/18 (01:32:03) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/everforest-dark-medium.theme
+2024/06/18 (13:25:04) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/horizon.theme
+2024/06/18 (13:25:04) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/tokyo-night.theme
+2024/06/18 (13:25:05) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/horizon.theme
+2024/06/18 (13:25:05) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/everforest-dark-medium.theme
+2024/06/18 (13:25:07) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/adwaita.theme
+2024/06/18 (13:25:08) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/everforest-dark-medium.theme
+2024/06/18 (13:25:08) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/horizon.theme
+2024/06/18 (13:25:09) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/everforest-dark-medium.theme
+2024/06/18 (13:25:48) | DEBUG: Writing new config file
+2024/06/18 (13:25:48) | INFO: Quitting! Runtime: 12:06:18
+
+2024/06/18 (13:25:49) | ===> btop++ v.1.3.2
+2024/06/18 (13:25:49) | INFO: Logger set to DEBUG
+2024/06/18 (13:25:49) | WARNING: Failed to set locale UTF-8 continuing anyway.
+2024/06/18 (13:25:49) | INFO: Running on /dev/ttys002
+2024/06/18 (13:25:49) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2024/06/18 (13:25:49) | DEBUG: M1 sensors found
+2024/06/18 (13:25:49) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/everforest-dark-medium.theme
+
+2024/06/18 (23:49:40) | ===> btop++ v.1.3.2
+2024/06/18 (23:49:40) | INFO: Logger set to DEBUG
+2024/06/18 (23:49:40) | WARNING: Failed to set locale UTF-8 continuing anyway.
+2024/06/18 (23:49:40) | INFO: Running on /dev/ttys000
+2024/06/18 (23:49:40) | DEBUG: get_sensors(): show_coretemp=1 check_temp=1
+2024/06/18 (23:49:40) | DEBUG: M1 sensors found
+2024/06/18 (23:49:40) | DEBUG: Loading theme file: /opt/homebrew/Cellar/btop/1.3.2/share/btop/themes/everforest-dark-medium.theme
+2024/06/18 (23:49:49) | INFO: Quitting! Runtime: 00:00:09

@@ -1,0 +1,56 @@
+# mirror
+cmd + alt - i : yabai -m space --mirror y-axis
+cmd + alt - u : yabai -m space --mirror x-axis
+
+# reset
+cmd + alt - r : yabai -m space --layout float; yabai -m space --layout bsp;
+cmd + alt + shift - r : yabai --restart-service
+
+# toggle float and bsp
+cmd + alt - d : yabai -m space --layout $(yabai -m query --spaces --space | jq -r 'if .type == "bsp" then "float" else "bsp" end')
+
+# rotate and toggle fullscreen
+cmd + alt - s : yabai -m space --rotate 270
+cmd + alt - f : yabai -m window --toggle zoom-fullscreen
+
+# moving focus and mouse clock/counter-clock wise
+cmd + alt - l: yabai -m window --focus next || yabai -m window --focus first
+cmd + alt - k: yabai -m window --focus prev || yabai -m window --focus last
+
+# swapping window clock/counter-clock wise
+cmd + alt + shift - l: yabai -m window --swap next || yabai -m window --swap first
+cmd + alt + shift - k: yabai -m window --swap prev || yabai -m window --swap last
+cmd + alt + shift - l: ~/.config/yabai/cycle_clockwise.sh
+cmd + alt + shift - k: ~/.config/yabai/cycle_counterclockwise.sh
+
+# moving window to l/r space
+cmd + alt + shift - o : yabai -m window --space prev; yabai -m space --focus prev;
+cmd + alt + shift - p : yabai -m window --space next; yabai -m space --focus next;
+
+# resize windows
+cmd + alt - o : yabai -m window --resize left:20:0 || yabai -m window --resize right:-20:0
+cmd + alt - p : yabai -m window --resize left:-20:0 || yabai -m window --resize right:20:0
+
+# space commands
+cmd + alt + shift - n : yabai -m space --create
+cmd + alt + shift - m : index="$(yabai -m query --spaces | jq '.[] | select(."has-focus").index')" && \
+    if [ $index -gt 1 ]; then newindex=$(expr $index - 1); else newindex=$(expr $index + 1); fi && \
+    yabai -m space --focus "${newindex}" && \
+    yabai -m space "${index}" --destroy
+
+# move displays
+cmd + alt + shift - 1 : yabai -m space --display 1
+cmd + alt + shift - 2 : yabai -m space --display 2
+
+# move space left/right
+cmd + alt + shift - z : yabai -m space --move prev
+cmd + alt + shift - x : yabai -m space --move next
+
+# move window to space #
+cmd + alt - 1 : yabai -m window --space 1;
+cmd + alt - 2 : yabai -m window --space 2;
+cmd + alt - 3 : yabai -m window --space 3;
+cmd + alt - 4 : yabai -m window --space 4;
+cmd + alt - 5 : yabai -m window --space 5;
+cmd + alt - 6 : yabai -m window --space 6;
+cmd + alt - 7 : yabai -m window --space 7;

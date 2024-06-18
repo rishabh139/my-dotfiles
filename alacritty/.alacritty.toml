@@ -1,0 +1,18 @@
+live_config_reload = true
+
+[font]
+size = 14.5
+# use_thin_strokes = true
+
+[font.normal]
+family = "MesloLGS NF"
+style = "Regular"
+
+[window]
+decorations = "buttonless"
+dynamic_padding = false
+opacity = 0.85
+
+[window.padding]
+x = 18
+y = 16

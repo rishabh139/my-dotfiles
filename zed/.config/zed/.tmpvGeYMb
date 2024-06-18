@@ -1,0 +1,10 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"open"}
+{"signed_in":false,"milliseconds_since_first_event":196,"type":"Setting","setting":"theme","value":"Gruvbox Dark Hard"}
+{"signed_in":false,"milliseconds_since_first_event":196,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Extension","extension_id":"html","version":"0.1.1"}
+{"signed_in":true,"milliseconds_since_first_event":239796,"type":"Memory","memory_in_bytes":25575424,"virtual_memory_in_bytes":440407719936}
+{"signed_in":true,"milliseconds_since_first_event":239796,"type":"Cpu","usage_as_percentage":0.0,"core_count":8}
+{"signed_in":true,"milliseconds_since_first_event":0,"type":"Memory","memory_in_bytes":32735232,"virtual_memory_in_bytes":439974395904}
+{"signed_in":true,"milliseconds_since_first_event":1,"type":"Cpu","usage_as_percentage":0.7262777,"core_count":8}
+{"signed_in":true,"milliseconds_since_first_event":239998,"type":"Memory","memory_in_bytes":31801344,"virtual_memory_in_bytes":439974969344}
+{"signed_in":true,"milliseconds_since_first_event":239999,"type":"Cpu","usage_as_percentage":0.78027624,"core_count":8}
